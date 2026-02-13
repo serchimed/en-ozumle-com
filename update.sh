@@ -188,6 +188,7 @@ init_layout() {
   L_OFFLINE=$(json_val "$SITE_JSON" offlineWarning)
   L_BRAND=$(json_val "$COMPANY_JSON" brand)
   L_LANG_NAV=$(build_lang_nav)
+  parse_hreflangs
 
   local ig=$(json_val "$COMPANY_JSON" instagram)
   local fb=$(json_val "$COMPANY_JSON" facebook)
@@ -243,6 +244,43 @@ build_lang_nav() {
   done < "$SITE_JSON"
 
   [ -n "$html" ] && printf '<span class="lang">%s</span>' "$html"
+}
+
+# --- SEO Helpers (canonical + hreflang) ---
+parse_hreflangs() {
+  L_HREFLANGS=""
+  local in_switch=0
+  local url="" code=""
+
+  while IFS= read -r line; do
+    [[ "$line" == *'"langSwitch"'* ]] && { in_switch=1; continue; }
+    [ $in_switch -eq 0 ] && continue
+    [[ "$line" =~ ^[[:space:]]*\] ]] && break
+
+    local u=$(echo "$line" | sed -n 's/.*"url"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')
+    local c=$(echo "$line" | sed -n 's/.*"lang"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')
+
+    [ -n "$u" ] && url="$u"
+    [ -n "$c" ] && code="$c"
+
+    if [[ "$line" == *"}"* ]] && [ -n "$code" ] && [ -n "$url" ]; then
+      [ -n "$L_HREFLANGS" ] && L_HREFLANGS+=" "
+      L_HREFLANGS+="${code}|${url}"
+      url="" code=""
+    fi
+  done < "$SITE_JSON"
+}
+
+build_seo_tags() {
+  local path="$1"
+  local canonical="${SITE_DOMAIN}${path}"
+  local html=""
+  for entry in $L_HREFLANGS; do
+    local lang="${entry%%|*}"
+    local domain="${entry#*|}"
+    html+="<link rel=\"alternate\" hreflang=\"${lang}\" href=\"${domain}${path}\">"
+  done
+  printf '%s' "$html"
 }
 
 # --- Header Menu Builder (E3) ---
@@ -621,6 +659,11 @@ build_pages() {
     local main_html=$(build_main_content "$pj")
     local out_path=$(page_output_path "$name")
 
+    local seo_path
+    if [ "$name" = "index" ]; then seo_path="/"; else seo_path=$(page_href "$name"); fi
+    local canonical="${SITE_DOMAIN}${seo_path}"
+    local hreflang=$(build_seo_tags "$seo_path")
+
     local extra=""
     if [ "$name" = "index" ]; then
       local schema=$(build_home_schema)
@@ -633,6 +676,8 @@ build_pages() {
       "title" "$title" \
       "description" "$desc" \
       "keywords" "$keys" \
+      "canonical" "$canonical" \
+      "hreflang" "$hreflang" \
       "lang_nav" "$L_LANG_NAV" \
       "nav" "$hmenu" \
       "main" "$main_html" \
@@ -670,6 +715,10 @@ build_products() {
     local img=$(json_img "$pj")
     local title="${L_BRAND} ${name} | ${L_BRAND}"
 
+    local seo_path="/${PRODUCTS_DIR}/${url}.html"
+    local canonical="${SITE_DOMAIN}${seo_path}"
+    local hreflang=$(build_seo_tags "$seo_path")
+
     local schema=$(build_schema "$pj")
     # Escape & for sed safety
     schema=$(printf '%s' "$schema" | sed 's/&/\\&/g')
@@ -699,6 +748,8 @@ build_products() {
       "title" "$title" \
       "description" "$desc" \
       "keywords" "$keys" \
+      "canonical" "$canonical" \
+      "hreflang" "$hreflang" \
       "lang_nav" "$L_LANG_NAV" \
       "nav" "$hmenu" \
       "main" "$product_html" \
