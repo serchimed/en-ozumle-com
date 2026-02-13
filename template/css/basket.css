@@ -117,6 +117,9 @@ ul.prd button.qty-ctrl,
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+}
+
+#basket .empty:not(.hidden) {
   padding-top: 6rem;
 }
 
