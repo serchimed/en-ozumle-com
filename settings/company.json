@@ -1,0 +1,34 @@
+{
+  "name": "Özüm Gıda Ticaret ve Sanayi",
+  "legalName": "Onur Yiğit-Özüm Gıda Ticaret ve Sanayi",
+  "address": [
+    "Mimar Sinan Mahallesi",
+    "Üsküdar Caddesi No: 1",
+    "YEDPA Ticaret Merkezi F/48",
+    "Ataşehir / İstanbul"
+  ],
+  "map":"https://maps.app.goo.gl/hVNeyU35MEWc8sGp8",
+  "phone": "+90 540 906 35 18",
+  "email": "info@ozumgida.com",
+  "instagram": "https://www.instagram.com/ozumlelezzetler/",
+  "facebook": "#",
+  "linkedin": "#",
+  "slogan": "Anadolu'nun geleneksel tatlarını modern dokunuşlarla sofralarınıza getiriyoruz.",
+  "description": "Özüm'le, geleneksel Anadolu'nun lezzetlerini özenle seçerek modern sofralara ulaştırmak amacıyla kurulmuş bir aile markasıdır.",
+
+  "currency": "TRY",
+  "currencySymbol": "₺",
+  "priceValidUntilDays": 180,
+  "certificate": "TS EN ISO 22000, TS EN ISO 9001",
+
+  "brand": "Özüm'le",
+
+  "manufacturer": {
+    "name": "Şirin Tulum Peynirleri San. Ve Tic. Ltd. Şti.",
+    "identifier": "TR24-0065",
+    "phone": "+904462142403",
+    "address": "İzzetpaşa Mah. Çağlayan Yolu 2 Km.",
+    "city": "Erzincan",
+    "country": "TR"
+  }
+}
