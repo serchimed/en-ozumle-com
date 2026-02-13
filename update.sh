@@ -187,6 +187,7 @@ init_layout() {
   L_YEAR=$(date +%Y)
   L_OFFLINE=$(json_val "$SITE_JSON" offlineWarning)
   L_BRAND=$(json_val "$COMPANY_JSON" brand)
+  L_LANG_NAV=$(build_lang_nav)
 
   local ig=$(json_val "$COMPANY_JSON" instagram)
   local fb=$(json_val "$COMPANY_JSON" facebook)
@@ -211,6 +212,37 @@ init_layout() {
     json_flag "$pj" showOnHeaderMenu && { L_MNAMES+=("$pname"); L_MSHORTS+=("$short"); }
   done
 
+}
+
+# --- Language Nav Builder ---
+build_lang_nav() {
+  local html="" in_switch=0
+  local label="" url="" code=""
+
+  while IFS= read -r line; do
+    [[ "$line" == *'"langSwitch"'* ]] && { in_switch=1; continue; }
+    [ $in_switch -eq 0 ] && continue
+    [[ "$line" =~ ^[[:space:]]*\] ]] && break
+
+    local l=$(echo "$line" | sed -n 's/.*"label"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')
+    local u=$(echo "$line" | sed -n 's/.*"url"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')
+    local c=$(echo "$line" | sed -n 's/.*"lang"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')
+
+    [ -n "$l" ] && label="$l"
+    [ -n "$u" ] && url="$u"
+    [ -n "$c" ] && code="$c"
+
+    if [[ "$line" == *"}"* ]] && [ -n "$label" ]; then
+      if [ "$code" = "$SITE_LANG" ]; then
+        html+="<b>${label}</b>"
+      else
+        html+="<a href=\"${url}\" hreflang=\"${code}\">${label}</a>"
+      fi
+      label="" url="" code=""
+    fi
+  done < "$SITE_JSON"
+
+  [ -n "$html" ] && printf '<span class="lang">%s</span>' "$html"
 }
 
 # --- Header Menu Builder (E3) ---
@@ -601,6 +633,7 @@ build_pages() {
       "title" "$title" \
       "description" "$desc" \
       "keywords" "$keys" \
+      "lang_nav" "$L_LANG_NAV" \
       "nav" "$hmenu" \
       "main" "$main_html" \
       "offline_warning" "$L_OFFLINE" \
@@ -666,6 +699,7 @@ build_products() {
       "title" "$title" \
       "description" "$desc" \
       "keywords" "$keys" \
+      "lang_nav" "$L_LANG_NAV" \
       "nav" "$hmenu" \
       "main" "$product_html" \
       "offline_warning" "$L_OFFLINE" \

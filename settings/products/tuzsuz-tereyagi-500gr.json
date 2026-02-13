@@ -1,40 +1,40 @@
 {
   "id": "y500",
-  "name": "Tuzsuz Tereyağı 500 gr",
+  "name": "Unsalted Butter 500 gr",
   "url": "tuzsuz-tereyagi-500gr",
   "images": ["tuzsuz-tereyagi-500gr.webp"],
   "price": 290,
   "weight": { "value": 500, "unit": "gr" },
-  "shortDesc": "Yemeklerinize ve hamur işlerinize uyum sağlayan Özüm'le Pastorize Tuzsuz Tereyağımız, dengeli lezzetiyle ideal bir tercihtir.",
-  "metaDesc": "Hiçbir katkı maddesi içermeyen, Fransız usulü yağlı hamur işlerinden Türk baklavasına kadar tüm özel tariflerinizi taçlandıracak premium tuzsuz tereyağı.",
-  "keywords": "Tuzsuz tereyağı, pastacılık tereyağı, baklava tereyağı, patisserie tereyağı, kremsi tereyağı, saf tereyağı, 500 gr tereyağı, Özüm'le tereyağı, doğal krema, premium tereyağı",
-  "category": { "name": "Süt Ürünleri", "url": "sut-urunleri" },
+  "shortDesc": "Ozum'le Pasteurised Unsalted Butter harmonises with your dishes and baked goods, making it an ideal choice with its balanced flavour.",
+  "metaDesc": "A premium unsalted butter containing no additives, perfect for crowning all your special recipes — from French-style pastries to Turkish baklava.",
+  "keywords": "Unsalted butter, pastry butter, baklava butter, patisserie butter, creamy butter, pure butter, 500 gr butter, Ozumle butter, natural cream, premium butter",
+  "category": { "name": "Dairy Products", "url": "dairy-products" },
 
   "longDesc": [
-    "Özenle seçilmiş kaliteli sütten elde edilir.",
-    "Tuzsuz formülü, özellikle hassas tatlılar, kremalı soslar ve özel fırıncılık ürünlerinde saf tereyağı lezzetini öne çıkarır.",
-    "Fransız croissant'ından Türk baklavasına kadar, katmanlı hamur işlerinde tereyağının kristalleşme özellikleri mükemmel sonuçlar verir.",
-    "Tatlı krema tadı ve ipeksi yumuşak dokusu, kahvaltılık ekmek üzerinde lüks bir deneyim sunar.",
-    "Düşük ısılarda bile kolayca eriyerek homojen bir karışım sağlar, bu özelliği hollandaise ve bearnaise gibi nazik soslar için idealdir.",
-    "Çikolatalı ganaj, karamel ve krema gibi tatlı uygulamalarda saf tereyağı aroması, kompozisyona derinlik katar.",
-    "A, D, E ve K vitaminleri açısından zengin olması, bu vitaminlerin yağda çözünür olması nedeniyle vücutta emilimini kolaylaştırır.",
-    "500 gramlık kompakt ambalajı, hem ev kullanıcıları hem de küçük ölçekli profesyonel mutfaklar için ideale yakın bir miktardır.",
-    "Gıda bilimcileri tarafından 'sarı altın' olarak adlandırılan tuzsuz tereyağı, kendi doğal lezzetiyle en saf haliyle tadılmalıdır."
+    "Made from carefully selected quality milk.",
+    "Its unsalted formula particularly highlights the pure butter flavour in delicate desserts, creamy sauces, and special bakery products.",
+    "From French croissants to Turkish baklava, the crystallisation properties of butter in layered pastries deliver perfect results.",
+    "Its sweet cream taste and silky smooth texture offer a luxurious experience when spread on breakfast bread.",
+    "It melts easily even at low temperatures, providing a homogeneous mixture — this property makes it ideal for delicate sauces like hollandaise and bearnaise.",
+    "In sweet applications such as chocolate ganache, caramel, and cream, the pure butter aroma adds depth to the composition.",
+    "Rich in vitamins A, D, E, and K, its fat-soluble nature facilitates absorption of these vitamins in the body.",
+    "The 500-gram compact packaging is an ideal quantity for both home users and small-scale professional kitchens.",
+    "Called 'golden treasure' by food scientists, unsalted butter should be tasted in its purest form with its own natural flavour."
   ],
 
   "otherDesc": [
-    { "name": "Saklama Koşulları", "value": "4°C altında muhafaza ediniz", "type": "info" },
-    { "name": "Raf Ömrü", "value": "Ambalaj açıldıktan sonra 15 gün içinde tüketiniz", "type": "info" },
-    { "name": "Süt Tipi", "value": "İnek sütü kremasından üretilmiştir", "type": "spec" },
-    { "name": "Yağ Oranı", "value": "En az %82", "type": "spec" },
-    { "name": "Tuz", "value": "Tuzsuz", "type": "spec" },
-    { "name": "Üretim Yöntemi", "value": "Pastörize", "type": "spec" },
-    { "name": "Alerjen", "value": "Süt ve süt ürünleri içerir", "type": "spec" },
-    { "name": "Kalori (100g)", "value": "717 kcal", "type": "nutrition" },
-    { "name": "Yağ (100g)", "value": "81 g", "type": "nutrition" },
-    { "name": "Doymuş Yağ (100g)", "value": "51 g", "type": "nutrition" },
+    { "name": "Storage Conditions", "value": "Keep refrigerated below 4°C", "type": "info" },
+    { "name": "Shelf Life", "value": "Consume within 15 days after opening", "type": "info" },
+    { "name": "Milk Type", "value": "Made from cow milk cream", "type": "spec" },
+    { "name": "Fat Content", "value": "Minimum 82%", "type": "spec" },
+    { "name": "Salt", "value": "Unsalted", "type": "spec" },
+    { "name": "Production Method", "value": "Pasteurised", "type": "spec" },
+    { "name": "Allergen", "value": "Contains milk and dairy products", "type": "spec" },
+    { "name": "Calories (100g)", "value": "717 kcal", "type": "nutrition" },
+    { "name": "Fat (100g)", "value": "81 g", "type": "nutrition" },
+    { "name": "Saturated Fat (100g)", "value": "51 g", "type": "nutrition" },
     { "name": "Protein (100g)", "value": "0.85 g", "type": "nutrition" },
-    { "name": "Karbonhidrat (100g)", "value": "0.06 g", "type": "nutrition" }
+    { "name": "Carbohydrate (100g)", "value": "0.06 g", "type": "nutrition" }
   ],
 
   "aggregateRating": {
@@ -48,6 +48,6 @@
     "ratingValue": "5",
     "author": "Hatice B.",
     "date": "2026-02-03",
-    "body": "Tuzsuz tereyağı bulmak çok zordu, hem de bu kalitede. Bebek mamalarında ve tatlılarımda gönül rahatlığıyla kullanıyorum. Doğal kokusu ve lezzeti her şeye değer."
+    "body": "It was very hard to find unsalted butter, especially of this quality. I use it with peace of mind in baby food and desserts. Its natural aroma and flavour are worth everything."
   }
 }

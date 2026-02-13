@@ -1,37 +1,37 @@
 {
   "id": "yt900",
-  "name": "Tuzlu Tereyağı 900 gr",
+  "name": "Salted Butter 900 gr",
   "url": "tuzlu-tereyagi-900gr",
   "images": ["tuzlu-tereyagi-900gr.webp"],
   "price": 580,
   "weight": { "value": 900, "unit": "gr" },
-  "shortDesc": "Kahvaltılardan, yemeklerinize her lokmada lezzet sunan Özüm'le Tuzlu Tereyağımız damakta iz bırakır.",
-  "metaDesc": "Taş değirmenlerde öğütülen deniz tuzuyla harmanlanmış, ateşte pişen her yemeğe derinlik katan, geleneksel usullerle hazırlanan hakiki tereyağı.",
-  "keywords": "Tuzlu tereyağı, yemeklik tereyağı, tahta yayık tereyağı, kaya tuzlu tereyağı, geleneksel tereyağı, 900 gr tereyağı, Anadolu mutfağı, börek tereyağı, Özüm'le tereyağı, doğal fermente",
-  "category": { "name": "Süt Ürünleri", "url": "sut-urunleri" },
+  "shortDesc": "From breakfast to your favourite dishes, Ozum'le Salted Butter delivers flavour in every bite and leaves a lasting impression.",
+  "metaDesc": "Blended with sea salt ground in stone mills, this authentic butter prepared using traditional methods adds depth to every dish cooked over flame.",
+  "keywords": "Salted butter, cooking butter, churn butter, rock salt butter, traditional butter, 900 gr butter, Anatolian cuisine, pastry butter, Ozumle butter, naturally fermented",
+  "category": { "name": "Dairy Products", "url": "dairy-products" },
 
   "longDesc": [
-    "Yemyeşil yaylalarda serbest dolaşan hayvanların taze sütünden, sanayi makineleşmesi olmadan elde edilir.",
-    "Sütün kaymağı doğal olarak ayrıştırıldıktan sonra, meşe ağacından yapılmış geleneksel yayıklarda saatlerce çalkalanır.",
-    "Doğal fermentasyon süreci, tereyağının karakteristik ekşimsi notalarını ve kompleks aroma profilini oluşturur.",
-    "Hafif tuzlu formülü, hem yemeklerde kullanım hem de ekmek üzerine sürmek için mükemmel bir denge sağlar.",
-    "Kandaki HDL (iyi kolesterol) seviyesini artıran, kısa ve orta zincirli yağ asitleri ve omega-3 yağ asitleri içerir.",
-    "Kullanılan kaya tuzu, tereyağını doğal olarak korur ve içindeki mineraller ek bir lezzet katmanı oluşturur.",
-    "900 gram tereyağı içeren bu paket, Anadolu mutfağının zengin pilav, börek ve et tariflerini hazırlamak için yeterli miktarı sunar."
+    "Obtained from the fresh milk of free-roaming animals in lush green highland pastures, without industrial mechanisation.",
+    "After the cream is naturally separated from the milk, it is churned for hours in traditional churns made of oak wood.",
+    "The natural fermentation process creates the butter's characteristic tangy notes and complex aroma profile.",
+    "Its lightly salted formula provides a perfect balance for both cooking and spreading on bread.",
+    "Contains short and medium-chain fatty acids and omega-3 fatty acids that increase HDL (good cholesterol) levels in the blood.",
+    "The rock salt used naturally preserves the butter, and the minerals within it create an additional layer of flavour.",
+    "This 900-gram pack provides ample quantity for preparing the rich pilaf, pastry, and meat recipes of Anatolian cuisine."
   ],
 
   "otherDesc": [
-    { "name": "Saklama Koşulları", "value": "4°C altında muhafaza ediniz", "type": "info" },
-    { "name": "Raf Ömrü", "value": "Ambalaj açıldıktan sonra 15 gün içinde tüketiniz", "type": "info" },
-    { "name": "Yağ Oranı", "value": "En az %82", "type": "spec" },
-    { "name": "Tuz", "value": "Kaya tuzu eklenmiştir", "type": "spec" },
-    { "name": "Üretim Yöntemi", "value": "Geleneksel yayık yöntemi", "type": "spec" },
-    { "name": "Alerjen", "value": "Süt ve süt ürünleri içerir", "type": "spec" },
-    { "name": "Kalori (100g)", "value": "717 kcal", "type": "nutrition" },
-    { "name": "Yağ (100g)", "value": "81 g", "type": "nutrition" },
-    { "name": "Doymuş Yağ (100g)", "value": "51 g", "type": "nutrition" },
+    { "name": "Storage Conditions", "value": "Keep refrigerated below 4°C", "type": "info" },
+    { "name": "Shelf Life", "value": "Consume within 15 days after opening", "type": "info" },
+    { "name": "Fat Content", "value": "Minimum 82%", "type": "spec" },
+    { "name": "Salt", "value": "Rock salt added", "type": "spec" },
+    { "name": "Production Method", "value": "Traditional churn method", "type": "spec" },
+    { "name": "Allergen", "value": "Contains milk and dairy products", "type": "spec" },
+    { "name": "Calories (100g)", "value": "717 kcal", "type": "nutrition" },
+    { "name": "Fat (100g)", "value": "81 g", "type": "nutrition" },
+    { "name": "Saturated Fat (100g)", "value": "51 g", "type": "nutrition" },
     { "name": "Protein (100g)", "value": "0.85 g", "type": "nutrition" },
-    { "name": "Karbonhidrat (100g)", "value": "0.06 g", "type": "nutrition" }
+    { "name": "Carbohydrate (100g)", "value": "0.06 g", "type": "nutrition" }
   ],
 
   "aggregateRating": {
@@ -43,8 +43,8 @@
 
   "review": {
     "ratingValue": "5",
-    "author": "Ayşe K.",
+    "author": "Ayse K.",
     "date": "2026-01-22",
-    "body": "Yıllardır köy tereyağı arıyordum, sonunda buldum. Kokusu mis gibi, kıvamı tam kıvamında. Kahvaltıda bal ile birlikte yiyoruz, çocuklar bayılıyor. Kesinlikle tavsiye ederim."
+    "body": "I had been searching for village butter for years, and I finally found it. The aroma is wonderful, the consistency is just right. We eat it with honey at breakfast, the kids love it. Highly recommended."
   }
 }

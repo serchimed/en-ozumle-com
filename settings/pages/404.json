@@ -1,6 +1,6 @@
 {
-  "title": "404 - Sayfa Bulunamadı | Özüm'le",
-  "description": "Aradığınız sayfa bulunamadı. Lütfen ana sayfamıza dönerek gezinmeye devam edin.",
-  "keywords": "sayfa bulunamadı, 404",
+  "title": "404 - Page Not Found | Ozum'le",
+  "description": "The page you are looking for could not be found. Please return to our homepage to continue browsing.",
+  "keywords": "page not found, 404",
   "partials": ["article-header", "page-image", "parts", "article-footer"]
 }

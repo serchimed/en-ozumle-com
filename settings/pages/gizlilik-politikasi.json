@@ -1,93 +1,93 @@
 {
-"title": "Gizlilik Politikası | Özüm'le Yasal Bilgiler",
-      "description": "Özüm'le olarak gizliliğinize önem veriyoruz. Kişisel bilgilerinizin toplanması, kullanımı ve korunması ile ilgili tüm detayları içeren gizlilik politikamızı inceleyin.",
-      "keywords": "Gizlilik politikası, kişisel veri koruma, veri güvenliği, kullanıcı gizliliği, e-ticaret gizlilik politikası, müşteri bilgileri koruması, Özüm'le gizlilik",
-      "showOnFooter": true,
+  "title": "Privacy Policy | Ozum'le Legal Information",
+  "description": "At Ozum'le, we value your privacy. Review our privacy policy detailing how your personal information is collected, used, and protected.",
+  "keywords": "Privacy policy, personal data protection, data security, user privacy, e-commerce privacy policy, customer data protection, Ozumle privacy",
+  "showOnFooter": true,
   "partials": ["article-header", "page-image", "parts", "article-footer"],
   "parts": [
     {
-      "title": "Gizlilik Politikası",
+      "title": "Privacy Policy",
       "content": [
-        "Özüm’le olarak, kullanıcılarımızın gizliliğini korumak ve kişisel verilerini güvenli bir şekilde işlemek bizim için son derece önemlidir.",
-        "Bu gizlilik politikası, web sitemizi kullandığınızda ve kurumsal WhatsApp hattımız üzerinden bizimle iletişime geçtiğinizde kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklamaktadır."
+        "At Ozum'le, protecting the privacy of our users and processing their personal data securely is of utmost importance to us.",
+        "This privacy policy explains how we collect, use, and protect your personal data when you use our website and contact us through our corporate WhatsApp line."
       ]
     },
     {
-      "title": "Toplanan Bilgiler",
+      "title": "Information Collected",
       "content": [
-        "Web sitemiz üzerinden doğrudan kişisel bilgi toplamıyoruz.",
-        "Ancak, kullanıcılarımızın kurumsal WhatsApp hattımız üzerinden bizimle iletişime geçmesi durumunda aşağıdaki kişisel verileri toplayabiliriz"
+        "We do not collect personal information directly through our website.",
+        "However, if our users contact us through our corporate WhatsApp line, we may collect the following personal data:"
       ],
       "list": [
-        "Adınız ve soyadınız",
-        "Telefon numaranız",
-        "WhatsApp üzerinden paylaştığınız diğer bilgiler (metin mesajları, görseller, belgeler vb.)"
+        "Your first and last name",
+        "Your phone number",
+        "Other information shared via WhatsApp (text messages, images, documents, etc.)"
       ]
     },
     {
-      "title": "Kişisel Verilerin Kullanım Amaçları",
+      "title": "Purposes of Using Personal Data",
       "content": [
-        "Kurumsal WhatsApp hattımız üzerinden toplanan kişisel verileri şu amaçlarla kullanıyoruz:"
+        "We use the personal data collected through our corporate WhatsApp line for the following purposes:"
       ],
       "list": [
-        "Kullanıcı taleplerini ve sorularını yanıtlamak",
-        "Hizmetlerimizi sağlamak ve kullanıcı memnuniyetini artırmak",
-        "Yasal yükümlülüklere uymak"
+        "Responding to user requests and questions",
+        "Providing our services and increasing user satisfaction",
+        "Complying with legal obligations"
       ]
     },
     {
-      "title": "Kişisel Verilerin Güvenliği",
+      "title": "Security of Personal Data",
       "content": [
-        "Kurumsal WhatsApp hattımız üzerinden elde edilen kişisel veriler, güvenli bir şekilde korunmakta ve yalnızca yetkili çalışanlarımız tarafından erişilebilmektedir.",
-        "WhatsApp’ın uçtan uca şifreleme teknolojisi sayesinde mesajlarınız üçüncü şahıslar tarafından görüntülenemez."
+        "Personal data obtained through our corporate WhatsApp line is securely protected and accessible only by our authorised employees.",
+        "Thanks to WhatsApp's end-to-end encryption technology, your messages cannot be viewed by third parties."
       ]
     },
     {
-      "title": "Kişisel Verilerin Paylaşılması",
+      "title": "Sharing of Personal Data",
       "content": [
-        "WhatsApp üzerinden elde edilen kişisel verilerinizi üçüncü şahıslarla yalnızca şu durumlarda paylaşırız:"
+        "We share your personal data obtained via WhatsApp with third parties only in the following cases:"
       ],
       "list": [
-        "Yasal zorunluluklar gereği",
-        "Kullanıcı onayı ile"
+        "As required by legal obligations",
+        "With the user's consent"
       ]
     },
     {
-      "title": "Kullanıcı Hakları",
+      "title": "User Rights",
       "content": [
-        "Kullanıcılar olarak aşağıdaki haklara sahipsiniz:"
+        "As users, you have the following rights:"
       ],
       "list": [
-        "Kişisel verilerinize erişim talep etme",
-        "Yanlış veya eksik verilerin düzeltilmesini talep etme",
-        "Kişisel verilerinizin silinmesini isteme (yasal yükümlülükler hariç)",
-        "Verilerinizin işlenmesini kısıtlama"
+        "Requesting access to your personal data",
+        "Requesting correction of inaccurate or incomplete data",
+        "Requesting deletion of your personal data (except for legal obligations)",
+        "Restricting the processing of your data"
       ]
     },
     {
-      "title": "Gizlilik Politikasındaki Değişiklikler",
+      "title": "Changes to the Privacy Policy",
       "content": [
-        "Bu gizlilik politikası, yasal ve hizmetlerimizdeki değişikliklere bağlı olarak zaman zaman güncellenebilir.",
-        "Politikanın son güncellenme tarihini bu sayfada görebilirsiniz."
+        "This privacy policy may be updated from time to time due to changes in laws and our services.",
+        "You can see the last update date of the policy on this page."
       ]
     },
     {
-      "title": "İletişim Bilgileri",
+      "title": "Contact Information",
       "content": [
-        "Gizlilik politikamız hakkında sorularınız veya talepleriniz varsa, lütfen bizimle iletişime geçin:"
+        "If you have questions or requests about our privacy policy, please contact us:"
       ],
       "list": [
         "WhatsApp: 0540 906 35 18",
-        "E-posta: info@ozumgida.com",
-        "Telefon: 0540 906 35 18",
-        "Adres: Mimar Sinan Mahallesi Üsküdar Caddesi No: 1 YEDPA Ticaret Merkezi F/48 Ataşehir / İstanbul"
+        "Email: info@ozumgida.com",
+        "Phone: 0540 906 35 18",
+        "Address: Mimar Sinan Mahallesi Uskudar Caddesi No: 1 YEDPA Ticaret Merkezi F/48 Atasehir / Istanbul"
       ]
     },
     {
-      "title": "Sonuç",
+      "title": "Conclusion",
       "content": [
-        "Bu gizlilik politikası ile kişisel verilerinizin nasıl işlendiğini ve korunduğunu şeffaf bir şekilde sizlere sunuyoruz.",
-        "Web sitemizi ve kurumsal WhatsApp hattımızı kullanarak bu politikayı kabul etmiş sayılırsınız."
+        "With this privacy policy, we transparently present to you how your personal data is processed and protected.",
+        "By using our website and corporate WhatsApp line, you are deemed to have accepted this policy."
       ]
     }
   ]
